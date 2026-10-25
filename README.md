@@ -2,7 +2,6 @@
 
 COS is a small educational operating system written in C and RISC-V assembly. It runs on a 32-bit RISC-V virtual machine in QEMU and demonstrates core operating-system concepts such as virtual memory, process scheduling, system calls, memory management, filesystem access, and disk I/O.
 
-The project was developed with reference to the [Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/) project and xv6.
 
 ## Features
 
@@ -185,13 +184,4 @@ COS is an educational operating system and currently does not include:
 - `fork()` or full `exec()` support
 - A production-grade filesystem
 
-## References
 
-- [Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/)
-- [xv6: A Simple, Unix-like Teaching Operating System](https://github.com/mit-pdos/xv6-riscv)
-- [MIT 6.828 / 6.S081](https://pdos.csail.mit.edu/6.828/2023/)
-- [Sugawara Laboratory xv6 Materials](https://www.sugawara-lab.jp/lecture.html)
-
-## License
-
-This project is distributed under the MIT License. See `LICENSE` for details.
